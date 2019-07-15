@@ -9,6 +9,7 @@ gem 'rails', '~> 5.2.3'
 gem 'pg'
 gem 'faker'
 gem 'devise', git: 'https://github.com/plataformatec/devise.git'
+gem 'activeadmin'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets

@@ -35,4 +35,5 @@ companies = Company.all
     user: users.sample,
     company: companies.sample
   )
-end
+ end
+AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
