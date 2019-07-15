@@ -29,7 +29,7 @@ end
 users = User.all
 companies = Company.all
 
-250.times do
+251.times do
   Complain.create(
     content: Faker::Lorem.sentence,
     user: users.sample,
